@@ -1,6 +1,6 @@
 # Generador de contraseñas
 
-## Tecnologias Utilizadas
+## Tecnologías Utilizadas
 
 - Django 
 - Python

@@ -6,7 +6,7 @@
     <div class="container text-center p-2" >
         <h3>Password Generator</h4>
     </div>
-        <label for="length">Select the legth of your password:</label>
+        <!-- <label for="length" class="text-center">Select the length of your password:</label>
         <select name="length" id="length" class="form-control">
             <option value="6" >6 characters</option>
             <option value="7" >7 characters </option>
@@ -17,7 +17,13 @@
             <option value="12">12 characters </option>
             <option value="13">13 characters </option>
             <option value="14">14 characters </option>
-        </select>
+        </select> -->
+        <label class="mt-2 text-center"> Select or Insert the length of your password:</label>
+        <div class="input-group flex-nowrap p-2">
+            <span class="input-group-text" id="addon-wrapping">Insert a number:</span>
+            <input type="number" name="length" id="length" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+
         <div class="form-check form-switch">
             <label for="uppercase" class="form-check-label">Uppercase</label>
             <input type="checkbox" name="uppercase" id="uppercase" class="form-check-input">
