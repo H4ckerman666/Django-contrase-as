@@ -11,4 +11,4 @@
 ## Funcionalidad
 
 - Puedes escoger entre diferentes tamaños de password
-- Ademas puedes escoger que tipo de caracteres incluirá tu contraseña
+- Elegir que tipo de caracteres incluirá tu contraseña
